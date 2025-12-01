@@ -70,8 +70,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <h3 className="text-white font-semibold mb-1">Email</h3>
-                      <a href="mailto:contact@cloudopspro.com" className="text-slate-400 hover:text-blue-400 transition-colors duration-300 cursor-pointer">
-                        contact@cloudopspro.com
+                      <a href="mailto:suhried@gmail.com" className="text-slate-400 hover:text-blue-400 transition-colors duration-300 cursor-pointer">
+                        suhried@gmail.com
                       </a>
                     </div>
                   </div>
@@ -82,8 +82,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <h3 className="text-white font-semibold mb-1">Phone</h3>
-                      <a href="tel:+1234567890" className="text-slate-400 hover:text-purple-400 transition-colors duration-300 cursor-pointer">
-                        +1 (234) 567-890
+                      <a href="tel:+8801683323276" className="text-slate-400 hover:text-purple-400 transition-colors duration-300 cursor-pointer">
+                        +880 1683-323276
                       </a>
                     </div>
                   </div>
@@ -185,7 +185,7 @@ export default function Contact() {
                         value={formData.phone}
                         onChange={handleChange}
                         className="w-full px-4 py-3 bg-slate-900/50 border border-slate-700/50 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:border-blue-500/50 transition-colors duration-300 text-sm"
-                        placeholder="+1 (234) 567-890"
+                        placeholder="+880 1683-323276"
                       />
                     </div>
                   </div>
