@@ -1,4 +1,5 @@
 import { useCursorGlow } from '../../../hooks/useCursorGlow';
+import { Link } from 'react-router-dom';
 
 function ReasonCard({ reason }: { reason: any }) {
   const { cardRef, mousePosition, isHovering } = useCursorGlow();
@@ -110,13 +111,13 @@ export default function WhyChooseUs() {
             <p className="text-2xl text-slate-300 mb-6">
               Ready to scale your business without the stress?
             </p>
-            <a
-              href="/contact"
+            <Link
+              to="/contact"
               className="inline-block px-8 py-4 bg-gradient-to-r from-blue-600 to-cyan-600 text-white font-semibold rounded-lg hover:shadow-[0_0_30px_rgba(14,165,233,0.5)] transition-all duration-300 whitespace-nowrap cursor-pointer"
             >
               Let's Talk
               <i className="ri-arrow-right-line ml-2"></i>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

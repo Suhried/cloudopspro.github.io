@@ -1,5 +1,6 @@
 import Layout from '../../components/feature/Layout';
 import { useCursorGlow } from '../../hooks/useCursorGlow';
+import { Link } from 'react-router-dom';
 
 function FeatureCard({ feature, gradient }: { feature: string; gradient: string }) {
   const { cardRef, mousePosition, isHovering } = useCursorGlow();
@@ -247,13 +248,13 @@ export default function Services() {
             <p className="text-xl text-slate-300 mb-10">
               Let's discuss how our services can transform your infrastructure
             </p>
-            <a
-              href="/contact"
+            <Link
+              to="/contact"
               className="inline-block px-10 py-5 bg-gradient-to-r from-blue-600 to-cyan-600 text-white text-lg font-semibold rounded-lg hover:shadow-[0_0_40px_rgba(14,165,233,0.6)] transition-all duration-300 whitespace-nowrap cursor-pointer"
             >
               Schedule a Consultation
               <i className="ri-arrow-right-line ml-2"></i>
-            </a>
+            </Link>
           </div>
         </section>
       </div>
